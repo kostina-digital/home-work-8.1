@@ -2,6 +2,7 @@
     background-color: lightgray;
     border: 2px solid black;
     width: 90%;
+    max-width: 1920px;
     height: 150px;
     margin: 20px auto;
 }
@@ -13,75 +14,74 @@
 .cell {
     background-color: gray;
     border: 2px solid black;
-    margin: 0 auto;
-    width: 300px;
+    width: 9vw;
     height: 80px;
 }
 
 .first-left {
     float: left;
-    margin: 35px 50px;
+    margin: 2% 0 2% 2%;
 }
 
 .first-right {
     float: right;
-    margin: 35px 50px;
+    margin: 2% 2% 2% 0;
 }
 
 .second-left {
     float: left;
-    margin: 35px 50px;
+    margin: 2% 0 2% 2%;
 }
 
 .second-right {
     float: right;
-    margin: 35px 50px;
+    margin: 2% 2% 2% 0;
 }
 
 .third-left {
     float: left;
-    margin: 35px 50px;
+    margin: 2% 0 2% 2%;
 }
 
 .third-right {
     float: right;
-    margin: 35px 50px;
+    margin: 2% 2% 2% 0;
 }
 
-.right {
-    float: right;
-}
 
 .forth-left {
     float: left;
-    margin: 35px 50px;
-    height: 160px;
-}
-
-.right2 {
-    float: right;
-    margin: 5px 30px;
+    height: 190px;
+    margin: 3% 0 2% 23%;
 }
 
 .forth-bottom {
-    margin: 20px;
+    float: right;
+    margin: 3% 5% 2% 0;
 }
 
-.center {
-    margin: 20px 20px 20px 890px;
+.forth-top {
+    float: right;
+    margin: 2% 5% 2% 0;
+}
+
+.forth-right {
+    float: right;
+}
+
+.fifth-center {
+    margin: 1% 33%;
 }
 
 .fifth-left {
     float: left;
-    margin: 35px 50px;
-    height: 160px;
+    height: 190px;
+    margin: 2%;
+
 }
 
-.right3 {
-    float: right;
-    margin: 0 890px 0 0;
-}
-
-.fifth-bottom {
-    margin: 20px;
+.fifth-bottom,
+.fifth-top {
+    float: left;
+    margin: 2%;
 }
